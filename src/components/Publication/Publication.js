@@ -11,6 +11,10 @@ const Publication = ({ title, text, numberPage }) => (
   </article>
 );
 
-Publication.propTypes = {};
+Publication.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  numberPage: PropTypes.number.isRequired,
+};
 
 export default Publication;

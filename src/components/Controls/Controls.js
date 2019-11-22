@@ -28,4 +28,11 @@ const Controls = ({
   </section>
 );
 
+Controls.propTypes = {
+  handelClickNext: PropTypes.func.isRequired,
+  handelClickPrev: PropTypes.func.isRequired,
+  handelDisabledNext: PropTypes.bool.isRequired,
+  handelDisabledPrev: PropTypes.bool.isRequired,
+};
+
 export default Controls;
