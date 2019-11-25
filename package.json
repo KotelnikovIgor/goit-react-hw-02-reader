@@ -2,7 +2,7 @@
   "name": "hw-01",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://kotelnikovigor.github.io/goit-react-hw-02-reader/",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
